@@ -6,6 +6,7 @@
  */
 
 #include "config.h"
+#define _XTAL_FREQ 4000000
 #include <xc.h>
 
 #define DADOS   PORTB
@@ -58,7 +59,7 @@ void main(void)
 {
     LCD_init();
     LCD_on();
-    LCD_print("GUI GATO");
+    LCD_print("ARRI EGUA!");
     
     while(1)
     {
