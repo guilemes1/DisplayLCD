@@ -35,6 +35,16 @@ void LCD_on (void)
     EN = 1;
 }
 
+void LCD_lincol (char lin, char col)
+{
+    RS = 0;
+    EN = 1;
+    DADOS = 0x80 + ((lin*40) + col);
+    EN = 0;
+    __delay_us(40);
+    EN = 1;         
+}
+
 void LCD_printChar (char c)
 {
     RS = 1;                //PERMITE O ENVIO DE DADOS
@@ -49,8 +59,16 @@ void LCD_print ( char * str)
     char i = 0;
     
     while( *(str+i) != 0 )
-    {    
-        LCD_printChar( *(str+i) );
+    {   
+        if( *(str+i) == 0 )
+            LCD_lincol(1,0);
+        else            
+        {    
+            if( i == 16 )
+                LCD_lincol(1,0);
+                        
+            LCD_printChar( *(str+i) );
+        }    
         i++;
     }
 }
