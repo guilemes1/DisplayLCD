@@ -11,3 +11,5 @@ Projeto desenvolvido para utilização do display LCD
 * Software para esquemático e simulaçao do programa: SIMULIDE
 
 ## Esquemático e simulação do circuito
+
+![alt](https://raw.githubusercontent.com/guilemes1/semaforoME/master/Esquematico_Semaforo.png)
