@@ -12,4 +12,4 @@ Projeto desenvolvido para utilização do display LCD
 
 ## Esquemático e simulação do circuito
 
-![alt](https://raw.githubusercontent.com/guilemes1/semaforoME/master/Esquematico_Semaforo.png)
+![alt](https://raw.githubusercontent.com/guilemes1/DisplayLCD/master/Esquem%C3%A1tico_display_LCD.jpg)
