@@ -8,7 +8,7 @@ Projeto desenvolvido para utilização do display LCD
 
 * Microcontrolador utilizado: PIC16F887
 
-* Software para esquemático e simulaçao do programa: SIMULIDE
+* Software para esquemático e simulaçao do programa: Proteus 8 Professional
 
 ## Esquemático e simulação do circuito
 
